@@ -1,0 +1,30 @@
+{
+  "name": "electron-ts-react-sample",
+  "version": "1.0.0",
+  "description": "\"an example project to demonstrate a good way of setting up an electron app with typescript and react\"",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron .",
+    "react-start": "cd view && npm start",
+    "react-build": "cd view && npm run build",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "build": "npm run react-build"
+  },
+  "author": "Ethan Sarif-Kattan",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^6.0.2"
+  },
+  "postinstall": "electron-builder install-app-deps",
+  "build": {
+    "appId": "com.yourname.yourproductname",
+    "copyright": "Copyright © 2019 ${author}",
+    "asar": true,
+    "asarUnpack": "node_modules/puppeteer/.local-chromium/**/*",
+    "directories": {
+      "buildResources": "resources",
+      "output": "executables"
+    }
+  }
+}
