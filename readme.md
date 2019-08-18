@@ -1,6 +1,6 @@
 # Electron Typescript React Sample App
 
-I ran
+Run
 
 ```
 npx create-react-app view --typescript
