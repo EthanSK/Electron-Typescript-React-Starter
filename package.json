@@ -7,24 +7,11 @@
     "start": "electron .",
     "react-start": "cd view && npm start",
     "react-build": "cd view && npm run build",
-    "pack": "electron-builder --dir",
-    "dist": "electron-builder",
-    "build": "npm run react-build"
+    "install": "cd view && npm install"
   },
   "author": "Ethan Sarif-Kattan",
   "license": "ISC",
   "dependencies": {
     "electron": "^6.0.4"
-  },
-  "postinstall": "electron-builder install-app-deps",
-  "build": {
-    "appId": "com.yourname.yourproductname",
-    "copyright": "Copyright © 2019 ${author}",
-    "asar": true,
-    "asarUnpack": "node_modules/puppeteer/.local-chromium/**/*",
-    "directories": {
-      "buildResources": "resources",
-      "output": "executables"
-    }
   }
 }
