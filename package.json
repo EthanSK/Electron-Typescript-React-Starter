@@ -14,7 +14,7 @@
   "author": "Ethan Sarif-Kattan",
   "license": "ISC",
   "dependencies": {
-    "electron": "^6.0.2"
+    "electron": "^6.0.4"
   },
   "postinstall": "electron-builder install-app-deps",
   "build": {
