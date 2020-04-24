@@ -1,6 +1,6 @@
 # Electron Typescript React Sample App
 
-Run
+When making your own project, run:
 
 ```
 npx create-react-app view --typescript
@@ -14,7 +14,7 @@ It's best to have the CRA contained so the tsconfig doesn't interfere, and it co
 - Always run tsc after making changes to .ts files, or have a shell with tsc -W to watch
 - Everything is done from project root.
 
-### To run in dev mode:
+### To run this project (in dev mode):
 
 Firstly, in a shell, run
 
