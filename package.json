@@ -12,6 +12,6 @@
   "author": "Ethan Sarif-Kattan",
   "license": "ISC",
   "dependencies": {
-    "electron": "^6.0.4"
+    "electron": "^18.3.7"
   }
 }
