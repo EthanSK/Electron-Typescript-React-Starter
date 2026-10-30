@@ -61,3 +61,8 @@ npm start
 ### Output
 
 Open dev tools in the electron app, and check the console. You should see the IPC message has come through from the main process to the renderer (which is written in view/src/App.tsx). This should be enough info to get you fully started with an Electron app in Typescript and React.
+
+
+## License
+
+Source-available under [Ethan Source-Available No-Sale Terms 1.0](LICENSE). You can use and modify the covered code, including internally at work, and share it without charge. Selling the software, modified versions, paid access, or bundles requires a separate commercial license. Earlier licenses and third-party rights remain in force. See [scope and release policy](LICENSING.md).
